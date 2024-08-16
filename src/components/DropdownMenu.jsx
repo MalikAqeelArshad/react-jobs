@@ -2,8 +2,7 @@ import vue from '@/assets/icons/vue.svg';
 import nuxt from '@/assets/icons/nuxt.svg';
 import next from '@/assets/icons/next.svg';
 import react from '@/assets/icons/react.svg';
-import { FaCaretDown, FaReact, FaVuejs } from 'react-icons/fa';
-import { TbBrandNuxt, TbBrandNextjs } from 'react-icons/tb';
+import { FaCaretDown } from 'react-icons/fa';
 
 const DropdownMenu = () => {
 	const preventDefault = (e) => e.preventDefault();
@@ -27,10 +26,9 @@ const DropdownMenu = () => {
 						<img className="inline-block h-5 mb-1 mr-1" src={react} alt="React" /> React
 					</a>
 					<a
-						href='' onClick={preventDefault} target="_blank"
+						href='https://nuxtjs-mongodb.vercel.app' target="_blank"
 						className='block px-4 py-2 text-gray-700 hover:bg-gray-100'>
 						<img className="inline-block h-5 mb-1 mr-1" src={nuxt} alt="Nuxt" /> Nuxt
-						<small className="text-gray-300 ml-1">coming soon</small>
 					</a>
 					<a
 						href='' onClick={preventDefault} target="_blank"
