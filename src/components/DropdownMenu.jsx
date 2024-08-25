@@ -31,10 +31,9 @@ const DropdownMenu = () => {
 						<img className="inline-block h-5 mb-1 mr-1" src={nuxt} alt="Nuxt" /> Nuxt
 					</a>
 					<a
-						href='' onClick={preventDefault} target="_blank"
+						href='https://next-jobs-mongodb.vercel.app' target="_blank"
 						className='block px-4 py-2 text-gray-700 hover:bg-gray-100'>
 						<img className="inline-block h-5 mb-1 mr-1" src={next} alt="Next" /> Next
-						<small className="text-gray-300 ml-1">coming soon</small>
 					</a>
 				</div>
 			</div>
